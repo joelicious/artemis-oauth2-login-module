@@ -84,7 +84,7 @@ public class OAuth2LoginModule implements LoginModule {
 		if (null == userName) 
 			loginSucceeded = false;
 
-		String newUrl = "https://" + oauth2URL + "?access_token=" + userName;
+		String newUrl = oauth2URL + userName;
 		logger.debug("THis is the URL: " + newUrl);
 
 		final boolean eligible = determineAuthorization(newUrl);

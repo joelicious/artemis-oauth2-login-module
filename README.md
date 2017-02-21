@@ -6,4 +6,4 @@ As described in ActiveMQ Artemis documentation (https://activemq.apache.org/arte
 
 In this project, an OAuth2 Login Module is created to demonstrate this capability.
 
-To use this module, build the project and then copy to ${ARTEMIS_HOME}/lib.  To invoke the module via the ${BROKER_HOME}/etc/login.config file.
+To use this module, build the project and then copy to ${ARTEMIS_HOME}/lib. It then can be invoked by updating the  ${BROKER_HOME}/etc/login.config file.

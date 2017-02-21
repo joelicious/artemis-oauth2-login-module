@@ -1,0 +1,9 @@
+.classpath
+.classpath
+.project
+.settings/
+target/
+data/
+.attach_*
+derby.log
+.DS_Store
